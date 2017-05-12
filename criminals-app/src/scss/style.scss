@@ -1,0 +1,78 @@
+body {
+  background-color: lightgrey;
+}
+
+main {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.prison {
+text-align: center;
+}
+.title {
+  text-align: center;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+input[type=text] {
+  width: 300px;
+}
+
+.criminal-card {
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  background-color: darkgrey;
+
+  ul {
+    list-style: none;
+    padding: 5px;
+  }
+}
+
+.buttons-row {
+  padding: 10px 5px;
+}
+
+.new-criminal {
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+
+}
+
+
+.container-new-form {
+  max-width: 30%;
+  margin: 0 auto;
+}
+.error-p {
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-size: 0.8rem;
+  text-align: left;
+  }
+
+.even-card {
+  background-color: black;
+  color: white;
+}
+.odd-card {
+  background-color: white;
+  color: black;
+}
+
+.new-submit {
+  margin: 10px;
+}
+
+
+label {
+  display: block;
+  padding: 5px;
+}

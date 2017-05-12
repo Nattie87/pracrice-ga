@@ -1,0 +1,17 @@
+{
+  "name": "simon-game",
+  "homepage": "https://github.com/Nattie87/pracrice-ga",
+  "authors": [
+    "Nattie87 <natalie.huitson@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,6 @@
+<h1>Videos</h1>
+<ul>
+  <% Videos.forEach(video => { %>
+    <li><a href="/videos/<%= video._id %>"><%= video.name %></a></li>
+  <% }); %>
+</ul>

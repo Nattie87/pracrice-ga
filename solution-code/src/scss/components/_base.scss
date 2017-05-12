@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: $body-background-color;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+main {
+  max-width: 320px;
+  // max-width: 320px * 2;
+  padding: 1em;
+  margin: 1em auto;
+  background-color: $primary-color;
+  // background-color: lighten($primary-color, 20%);
+  // background-color: darken($primary-color, 20%);
+  color: #fff;
+  @include border-radius(5px);
+}

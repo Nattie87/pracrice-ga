@@ -1,0 +1,117 @@
+/*background color = #fafafa*/
+/*button blue = #3897f0*/
+/*border color = #e6e6e6*/
+/*footer link color = #003569*/
+/*text grey color = #999*/
+
+body, input {
+  font-family: 'Karla', sans-serif;
+  background-color:#fafafa;
+
+
+}
+.box {
+  width: 250px;
+  padding: 10px;
+  margin: 5px auto;
+}
+.button {
+  background: #3897f0;
+  color: white;
+  font-size: 20px;
+  margin: 5px auto;
+  width: 250px;
+}
+
+.leftSidePhones {
+  float: left;
+  width: 385px;
+  text-align: center;
+
+}
+.rightSideForm {
+  /*background: white;*/
+  float: right;
+  width: 381px;}
+  /*border: 3px solid #e6e6e6;*/
+  /*text-align: center;*/
+  /*padding: 10px;*/
+  /*color: #999;*/
+
+  .container {
+    background: white;
+    border: 3px solid #e6e6e6;
+    text-align: center;
+    padding: 10px;
+    color: #999;
+
+  }
+
+
+}
+/*.twoSides {
+display: inline;
+}*/
+
+
+.getTheApp {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.logIn {
+  background: white;
+  text-align: center;
+  margin-top: 15px;
+  border: 3px solid #e6e6e6;
+  padding: 10px;
+  color: #999;
+
+}
+.signUp {
+  display: grid;
+  margin: 30px;
+  margin-left: 50px;
+
+}
+
+
+main {
+  margin: 45px auto 55px;
+  max-width: 935px;
+  width: 930px;
+  overflow: auto;
+
+}
+
+footer {
+  margin: 0px auto;
+  clear: both;
+  width: 960px;
+  }
+ul {
+  margin: auto;
+  padding: 0;
+}
+footer li {
+  display: inline;
+
+}
+p a {
+  text-decoration: none;
+  color: #999;
+}
+footer a{
+  text-decoration: none;
+e
+}
+
+footer nav {
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+footer nav li:last-child {
+  float: right;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "w04d04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "browser-sync": "^2.18.8",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-ejs-layouts": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1"
+  }
+}

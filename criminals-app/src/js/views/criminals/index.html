@@ -1,0 +1,31 @@
+<div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+    <a href="#" class="pure-menu-link pure-menu-heading">Yahoo</a>
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Flickr</a></li>
+    </ul>
+</div>
+
+<div class="title">
+  <h1>Criminal Database Index</h1>
+</div>
+<div class="prison">
+
+
+<div ng-repeat="criminal in criminals.criminals" class="criminal-card" ng-class="($even ? 'even-card' : 'odd-card')">
+  <ul>
+    <li>{{ criminal.name }}</li>
+    <li>{{ criminal.location }}</li>
+    <li>{{ criminal.status }}</li>
+  </ul>
+  <div class="buttons-row">
+    <button ui-sref="criminalsShow({ id: criminal._id })">View</button>
+    <button ui-sref="criminalsEdit({ id: criminal._id})">Edit</button>
+    <button ng-click="criminals.delete(criminal)">Delete</button>
+  </div>
+
+</div>
+<div class="new-criminal">
+  <button ui-sref="criminalsNew()">New</button>
+</div>
+</div>

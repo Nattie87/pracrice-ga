@@ -1,0 +1,18 @@
+<h1>Add Video</h1>
+
+<form method="post" action="/videos/<%= video._id %>">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" value="<%= video.name %>">
+
+  <label for="description">Description</label>
+  <textarea id="description" name="description"><%= video.description %></textarea>
+
+  <label for="video">Video</label>
+  <input type="text" id="video" name="video" value="<%= video.image %>">
+
+  <label for="location">Location</label>
+  <input type="text" id="location" name="location" value="<%= video.location %>">
+
+
+  <input type="submit" value="Submit">
+</form>

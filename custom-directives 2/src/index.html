@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="CardsAgainstAssembly">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Custom Directives</title>
+  <!-- inject:js -->
+  <!-- endinject -->
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<body>
+  <div class="container">
+    <header class="navbar">
+      <h1 class="pull-left">Cards Against Assembly</h1>
+    </header>
+    <section id="cards" class="container-fluid" ng-controller="CardsCtrl as cards">
+      <div class='row'>
+        <div class='col-sm-6 col-md-6 col-lg-4' ng-repeat="card in cards.all" >
+          <div class="card">
+            <h4 class="card-title">{{card.question}}</h4>
+            <h6>Cards Against Assembly</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Made with <span class='heart'>♥︎</span> at General Assembly</p>
+    </footer>
+  </div>
+</body>
+</html>

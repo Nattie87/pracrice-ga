@@ -1,0 +1,10 @@
+<h1>Index</h1>
+<ul>
+  <% books.forEach(book => { %>
+    <li>
+      <a href="/books/<%= book.id %>"><h3><%= book.title %></h3></a>
+      <h4><%= book.author %></h4>
+      <p><%= book.description %></p>
+    </li>
+  <%  }); %>
+</ul>

@@ -1,0 +1,88 @@
+.card {
+  height: 216px;
+  width: 189px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background: #blue;
+  margin: 8%;
+  float: left;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color:rgb(2, 132, 130);
+  font-size: 50px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  color:rgb(2, 200, 130);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+h3 {
+  color:#00C5CD;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+nav {
+  background-color: #808080;
+}
+
+a {
+  background-color:#ffbf00;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 35px;
+}
+
+a:hover {
+  background-color: #ee5f3c;
+}
+
+
+.name {
+  color: #ff69b4;
+}
+#game-board {
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.heart {
+  color: #8A0707;
+}
+
+footer {
+  background:#808080;
+  color: #FFFFFF;
+}
+
+img {
+  height: 214px;
+  width: 189px;
+}

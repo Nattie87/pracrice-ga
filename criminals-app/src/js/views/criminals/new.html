@@ -1,0 +1,34 @@
+<div class="title">
+<h1>New</h1>
+
+<div class="container-new-form">
+
+
+<form name="criminals.newCriminalForm" ng-submit="criminals.create()" novalidate>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <div class="ng-message-error" ng-messages="criminals.newCriminalForm.name.$error" ng-show="(criminals.newCriminalForm.name.$dirty || criminals.newCriminalForm.name.$touched)">
+        <p class="error-p" ng-message="required">A name is required</p>
+    </div>
+    <input type="text" class="form-control" id="name" name="name" ng-model="criminals.criminal.name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="status">Status</label>
+    <div class="ng-message-error" ng-messages="criminals.newCriminalForm.$error">
+        <!-- <p class="error-p" ng-message="required">A status is required</p> -->
+        <p class="error-p" ng-message="pattern">Please choose from alive, dead or unknown</p>
+    </div>
+    <input type="text" class="form-control" id="status" name="status" ng-model="criminals.criminal.status" required ng-pattern="/alive|dead|unknown/">
+  </div>
+
+  <div class="form-group">
+    <label for="location">Location</label>
+    <input type="text" class="form-control" id="location" name="location" ng-model="criminals.criminal.location">
+  </div>
+
+  <input type="submit" class="new-submit" value="Create">
+</form>
+<button ui-sref="criminalsIndex">Back</button>
+</div>
+</div>
