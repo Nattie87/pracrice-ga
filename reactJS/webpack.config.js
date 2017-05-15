@@ -21,6 +21,7 @@ module.exports = {
     loaders: [
       {
         /\.js?$,
+        exclude
       }
     ]
   }
