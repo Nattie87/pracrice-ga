@@ -11,12 +11,12 @@ class Header extends Component {
 
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li className="first"><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
+            <li className="last"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        
+
       </header>
     );
   }
