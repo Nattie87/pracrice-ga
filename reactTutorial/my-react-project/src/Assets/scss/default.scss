@@ -1,5 +1,6 @@
 @import "config";
 
+
 header {
   position: relative;
   display: block;
@@ -39,6 +40,9 @@ header {
         font-size: 19px;
         line-height: normal;
         color: $white;
+      }
+      .thumbnail {
+      width: 400px;
       }
     }
   }

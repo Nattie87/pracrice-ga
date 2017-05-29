@@ -15,7 +15,7 @@ class Header extends Component {
         <nav>
           <ul>
             <li className="first">
-              <a href="/">Home</a>
+              <a href="/ ">Home</a>
             </li>
             <li>
               <Link to ="/Products">Products</Link>

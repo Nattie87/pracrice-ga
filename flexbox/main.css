@@ -1,0 +1,15 @@
+#products {
+  background-color: blue;
+
+}
+
+.item {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.item:hover {
+      opacity: 0.5;
+      }
