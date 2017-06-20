@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+@media screen and (min-width: 768px)
+.jumbotron {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #F9FBFF;
+}
+
+.container {
+  text-align: center;
+}
+
+#one {
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: #F7BBD7;
+  color: white;
+}
+
+#one:hover {
+background-color: #FF7CB5;
+color: white;
+}
+
+#two {
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: #DECDF5;
+  color: white;
+}
+
+#two:hover {
+background-color: #A076D3;
+color: white;
+}
+
+#three {
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: #BBEACE;
+  color: white;
+}
+
+#three:hover {
+background-color: #49F913;
+color: white;
+}
+
+#four {
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: #EAA544;
+  color: white;
+}
+
+#four:hover {
+background-color: #FF8300;
+color: white;
+}
+
+.row2 {
+  margin-top: 30px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h3 {
+  width: 97%;
+}
+
+
+/*note from me*/

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Donuts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Donuts</h1>
+    <form id="new-donut">
+      <input type="text" name='flavour' id="donut-flavor" placeholder="What type of donut?" value="Chocolate">
+      <select name="style" id="donut-style">
+          <option value="Old Fashioned">Old Fashioned</option>
+          <option value="Cake">Cake</option>
+          <option value="French Cruller">French Cruller</option>
+          <option value="Yeast">Yeast</option>
+      </select>
+      <input type="submit" value='Save My Donut'>
+    </form>
+    <ul id="donuts">
+    </ul>
+  </body>
+</html>
